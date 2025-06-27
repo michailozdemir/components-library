@@ -3,9 +3,8 @@ export default {
   content: [
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
-    // IMPORTANT: Include component packages so Tailwind scans them for classes
-    '../../packages/ui-*/src/**/*.{js,ts,jsx,tsx}',
-    '../../packages/ui-*/dist/**/*.{js,mjs}',
+    '../../packages/apps-components/src/**/*.{js,ts,jsx,tsx}',
+    '../../packages/apps-components/dist/**/*.{js,mjs}',
   ],
   plugins: [],
 };

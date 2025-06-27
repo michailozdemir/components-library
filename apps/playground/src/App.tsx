@@ -48,9 +48,6 @@ function App() {
               <h3 className="text-lg font-medium mb-3">Interactive</h3>
               <div className="flex flex-wrap gap-4">
                 <Button onClick={() => alert('Button clicked!')}>Click me</Button>
-                <Button variant="secondary" onClick={() => console.log('Logged to console')}>
-                  Log to console
-                </Button>
               </div>
             </div>
           </div>

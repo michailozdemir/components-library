@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    // Target and Module
     "target": "ES2020",
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
@@ -9,12 +8,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-
-    // JSX
     "jsx": "react-jsx",
     "jsxImportSource": "react",
-
-    // Type Checking - slightly more relaxed for apps
     "strict": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
@@ -25,18 +20,15 @@
     "noImplicitOverride": true,
     "allowUnusedLabels": false,
     "allowUnreachableCode": false,
-
-    // Interop Constraints
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-
-    // Skip type checking for libraries
     "skipLibCheck": true,
-
-    // Additional checks
     "noPropertyAccessFromIndexSignature": false,
-    "verbatimModuleSyntax": false
+    "verbatimModuleSyntax": false,
+    "paths": {
+      "@michailozdemir/apps-components": ["../../packages/apps-components/src"]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "build", "*.config.*"]
