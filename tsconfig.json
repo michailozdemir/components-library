@@ -1,0 +1,4 @@
+{
+  "files": [],
+  "references": [{ "path": "./packages/apps-components" }, { "path": "./apps/playground" }]
+}

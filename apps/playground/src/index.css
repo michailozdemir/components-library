@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@source "../../../packages/ui-button";
+
+@theme {
+  --color-primary: hsl(222, 93%, 41%);
+  --color-primary-foreground: hsl(210, 40%, 98%);
+  --color-secondary: hsl(210, 40%, 96.1%);
+  --color-secondary-foreground: hsl(222, 47.4%, 11.2%);
+  --color-muted: hsl(210, 40%, 96.1%);
+  --color-muted-foreground: hsl(215.4, 16.3%, 46.9%);
+  --color-accent: hsl(210, 40%, 96.1%);
+  --color-accent-foreground: hsl(222, 47.4%, 11.2%);
+}
