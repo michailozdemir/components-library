@@ -74,6 +74,7 @@ npm run release         # Build and publish to npm
 ## 📦 Current Packages
 
 ### @michailozdemir/ui-button
+
 A flexible button component with multiple variants built on Radix UI Slot.
 
 ```bash
@@ -85,10 +86,11 @@ import { Button } from '@michailozdemir/ui-button';
 
 <Button variant="destructive" size="lg">
   Delete Item
-</Button>
+</Button>;
 ```
 
 ### @michailozdemir/ui-utils
+
 Shared utilities for building components.
 
 ```bash
@@ -175,16 +177,19 @@ npm run changeset
 ## 🚀 CI/CD Workflows
 
 ### Continuous Integration (ci.yml)
+
 - Runs on every push and PR
 - Executes linting, type checking, building, and formatting checks
 - Ensures code quality before merging
 
 ### Pull Request Checks (pr.yml)
+
 - Validates builds work correctly
 - Reminds developers to add changesets for user-facing changes
 - Provides helpful feedback for contributors
 
 ### Release Workflow (release.yml)
+
 - Automatically publishes packages when changes are merged to main
 - Uses Changesets for proper semantic versioning
 - Creates release PRs for coordinated updates
@@ -202,18 +207,21 @@ npm run changeset
 ## 📚 Best Practices
 
 ### Component Development
+
 - **Use CVA for variants**: Define component variants using class-variance-authority
 - **Leverage Radix UI**: Use unstyled primitives for accessibility
 - **Composition over configuration**: Use the `asChild` pattern for flexibility
 - **Type safety**: Export component props interfaces
 
 ### Styling
+
 - **Utility classes**: Use utility classes for styling
 - **CVA variants**: Define variants using class-variance-authority
 - **clsx for conditionals**: Use clsx for conditional class names
 - **Consistent design tokens**: Use shared design system values
 
 ### Package Management
+
 - **Peer dependencies**: React should always be a peer dependency
 - **Minimal dependencies**: Keep component packages lightweight
 - **Version management**: Use changesets for coordinated releases
