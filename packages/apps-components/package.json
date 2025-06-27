@@ -1,6 +1,6 @@
 {
   "name": "@michailozdemir/apps-components",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A modern React component library with TypeScript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
